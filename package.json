@@ -1,0 +1,16 @@
+{
+	"name": "mikro-orm-test-string",
+	"version": "1.0.0",
+	"main": "build/index.js",
+	"repository": "git@github.com:iamomiid/mikro-orm-test-string.git",
+	"author": "Omid Sayfun <seyfanomid@ymail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "ts-node src/index.ts"
+	},
+	"dependencies": {
+		"@types/mongodb": "^3.5.11",
+		"mikro-orm": "^3.6.11",
+		"mongodb": "^3.5.6"
+	}
+}
